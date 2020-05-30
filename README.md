@@ -17,4 +17,4 @@ docker build -t ebd622/ui-vuejs-k8:x.x.x .
 winpty docker login --username=ebd622
 
 #### 2.2 Login to the Docker Hub
-docker push ebd622/ui-vuejs-k8
+docker push ebd622/ui-vuejs-k8:x.x.x
