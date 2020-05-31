@@ -15,35 +15,35 @@ function findProductKey (productId) {
 var productService = {
   findAll(fn) {
     axios
-      .get('/v1/products')
+      .get('/crud/api/v1/products')
       .then(response => fn(response))
       .catch(error => console.log(error))
   },
 
   findById(id, fn) {
     axios
-      .get('/v1/products/' + id)
+      .get('/crud/api/v1/products/' + id)
       .then(response => fn(response))
       .catch(error => console.log(error))
   },
 
   create(product, fn) {
     axios
-      .post('/v1/products', product)
+      .post('/crud/api/v1/products', product)
       .then(response => fn(response))
       .catch(error => console.log(error))
   },
 
   update(id, product, fn) {
     axios
-      .put('/v1/products/' + id, product)
+      .put('/crud/api/v1/products/' + id, product)
       .then(response => fn(response))
       .catch(error => console.log(error))
   },
 
   deleteProduct(id, fn) {
     axios
-      .delete('/v1/products/' + id)
+      .delete('/crud/api/v1/products/' + id)
       .then(response => fn(response))
       .catch(error => console.log(error))
   }
