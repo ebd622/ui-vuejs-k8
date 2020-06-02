@@ -1,13 +1,13 @@
 # ui-vuejs-k8
 The idea of the project is to build the ui-vuejs-k8 image and push it to Docker Hub.
-Check out [springboot-crud-mysql-vuejs-k8] (https://github.com/ebd622/springboot-crud-mysql-vuejs-k8) to see how to deploy the image into a Kubernetes Cluster.
+Check out [springboot-crud-mysql-vuejs-k8](https://github.com/ebd622/springboot-crud-mysql-vuejs-k8) to see how to deploy the image into a Kubernetes Cluster.
 
 ## 1. Build an image and tag it
 
-1.1 Build:
+#### 1.1 Build:
 docker build -t ui-vuejs-k8 .
 
-1.2 Tag:
+#### 1.2 Tag:
 docker tag <imageID> ebd622/ui-vuejs-k8:x.x.x
 
 #### Or build and tag it:
