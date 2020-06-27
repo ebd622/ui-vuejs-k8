@@ -1,6 +1,6 @@
 # ui-vuejs-k8: UI-vuej image for Kubernetes
-This is a web-based UI-vuejs applications. The idea is to build the ui-vuejs-k8 image and push it to Docker Hub.
-Check out [springboot-crud-mysql-vuejs-k8](https://github.com/ebd622/springboot-crud-mysql-vuejs-k8) to see how to deploy the image into a Kubernetes Cluster.
+This is a frontend application built with the [vuejs](https://vuejs.org/) framework. The main goal of the project is to build the ui-vuejs-k8 image and push it to Docker Hub.
+Check out the [springboot-crud-mysql-vuejs-k8](https://github.com/ebd622/springboot-crud-mysql-vuejs-k8) repository to see how to deploy the image into a Kubernetes Cluster.
 
 ## 1. Build an image and tag it
 
