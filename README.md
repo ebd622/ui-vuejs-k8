@@ -8,15 +8,15 @@ Check out the [springboot-crud-mysql-vuejs-k8](https://github.com/ebd622/springb
 docker build -t ui-vuejs-k8 .
 
 #### 1.2 Tag:
-docker tag <imageID> ebd622/ui-vuejs-k8:x.x.x
+docker tag <imageID> <dockerID>/ui-vuejs-k8:x.x.x
 
 #### Or build and tag it:
-docker build -t ebd622/ui-vuejs-k8:x.x.x .
+docker build -t <dockerID>/ui-vuejs-k8:x.x.x .
 
 ### 2. Push the image to the Docker Hub:
 
 #### 2.1 Login to the Docker Hub
-winpty docker login --username=ebd622
+winpty docker login --username=<dockerID>
 
 #### 2.2 Login to Docker Hub
-docker push ebd622/ui-vuejs-k8:x.x.x
+docker push <dockerID>/ui-vuejs-k8:x.x.x
