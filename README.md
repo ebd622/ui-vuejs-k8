@@ -13,7 +13,7 @@ docker tag <imageID> ebd622/ui-vuejs-k8:x.x.x
 #### Or build and tag it:
 docker build -t ebd622/ui-vuejs-k8:x.x.x .
 
-### 2. Push the image to the Docker Hub:
+## 2. Push the image to the Docker Hub:
 
 #### 2.1 Login to the Docker Hub
 winpty docker login --username=ebd622
