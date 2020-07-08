@@ -22,9 +22,13 @@ docker build -t ebd622/ui-vuejs-k8:x.x.x .
 ## 2. Push the image to the Docker Hub:
 
 #### 2.1 Login to the Docker Hub
+```
 winpty docker login --username=ebd622
+```
 
 #### 2.2 Login to Docker Hub
+```
 docker push ebd622/ui-vuejs-k8:x.x.x
+```
 
 (**ebd622** - is the DockerId, it is used here as an example. Any other DockerId can be used)
